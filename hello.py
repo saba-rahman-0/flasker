@@ -21,7 +21,7 @@ def user(name):
 def page_not_found(e):
     return render_template("404.html"), 404
 
-# Internal server error
+# Internal server error / gitting
 
 
 @app.errorhandler(500)
